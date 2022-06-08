@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title> First page </title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- gtag.js 라이브러리를 로드하고 GA_MEASUREMENT_ID를 기본 Google 애널리틱스 속성 ID로 설정하며 페이지 조회수를 Google 애널리틱스로 전송합니다. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { window.dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <h1>Hello World</h1>
+    <p>I'm hosted with GitHub Pages.</p>
 </body>
+
 </html>
